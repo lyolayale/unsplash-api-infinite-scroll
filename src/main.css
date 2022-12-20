@@ -1,0 +1,84 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.75rem !important;
+  letter-spacing: 5px;
+  margin: 1.5rem auto 1rem auto;
+  text-align: center;
+  text-shadow: 0 5px rgba(200, 200, 200);
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  margin: 10px;
+}
+
+.image-container img {
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(100, 100, 100, 0.3);
+  margin-top: 0.7rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .image-container {
+    margin: 10px 10%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .image-container {
+    margin: 10px 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .image-container {
+    margin: 10px 25%;
+  }
+}
